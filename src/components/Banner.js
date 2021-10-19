@@ -32,7 +32,7 @@ const Banner = () => {
                 rounded-l-full 
                 absolute 
                 md:h-80 lg:h-80 
-                md:w-1/4
+                md:w-2/5
                 lg:w-2/5
                 md:top-28
                 lg:top-28
