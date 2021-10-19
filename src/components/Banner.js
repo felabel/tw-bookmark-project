@@ -23,16 +23,23 @@ const Banner = () => {
                 </div>
                 {/* // rounded background purple */}
                 <div className="
-                h-60 w-2/4 
+                h-48 
+                md:h-60 lg:h-60
+                w-3/4 
                 md:block 
-                overflow-hidden 
+                overflow-hidden
                 bg-bookmark-purple 
                 rounded-l-full 
                 absolute 
                 md:h-80 lg:h-80 
-                md-w-1/4
-                lg-w-1/4
-                top-28 right-0 
+                md:w-1/4
+                lg:w-2/5
+                md:top-28
+                lg:top-28
+                top-10
+
+                
+                 right-0 
                 lg:-bottom-28 
                 ">
                     

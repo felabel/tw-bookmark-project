@@ -14,7 +14,7 @@ const Features = () => {
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
                     {/* image */}
                     <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                    <img  className="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src ={illustration1}/>
+                    <img  className="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src ={illustration1} alt=""/>
 
                     </div>
                     {/* content */}
@@ -28,8 +28,9 @@ const Features = () => {
                 </div>
                 {/* // rounded background purple */}
                 <div className="
-                h-60 w-1/4 
-                md:w-2/4  lg:2/4
+                h-48 
+                w-3/4 
+                md:w-2/4  lg:w-2/5
                 my-4
                 lg:block 
                 overflow-hidden 
@@ -39,7 +40,7 @@ const Features = () => {
                 md:h-80 lg:h-80 
                 md-w-1/4
                 lg-w-1/4
-                top-28 left-0 
+                top-10 left-0 
                 lg:-bottom-28  
                 ">
                     
@@ -51,7 +52,7 @@ const Features = () => {
                 <div className="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
                     {/* image */}
                     <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                    <img  className="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src ={illustration2}/>
+                    <img  className="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src ={illustration2} alt=""/>
 
                     </div>
                     {/* content */}
@@ -65,19 +66,20 @@ const Features = () => {
                 </div>
                 {/* // rounded background purple */}
                 <div className="
-                h-60 w-1/4 
-                md:w-2/4  lg:2/4
-                my-4
-                lg:block 
-                overflow-hidden 
-                bg-bookmark-purple 
-                rounded-l-full 
-                absolute 
-                md:h-80 lg:h-80 
-                md-:w-2/4
-                lg-:w-2/4
-                top-37 right-0 
-                lg:-bottom-28  
+                 h-48 w-3/4 
+                 md:w-2/4  lg:w-2/5
+                 my-4
+                 lg:block 
+                 overflow-hidden 
+                 bg-bookmark-purple 
+                 rounded-l-full 
+                 absolute 
+                 md:h-80 lg:h-80 
+                 md-w-1/4
+                 lg-w-1/4
+                 top-16 right-0 
+                 lg:top-28
+                 lg:-bottom-28   
                 ">
                     
                 </div>
@@ -89,7 +91,7 @@ const Features = () => {
                 <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
                     {/* image */}
                     <div className="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
-                    <img  className="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src ={illustration3} />
+                    <img  className="w-5/6 h-5/6 sm:w-3/4 md:w-full md:h-full" src ={illustration3} alt=""/>
 
                     </div>
                     {/* content */}
@@ -103,18 +105,20 @@ const Features = () => {
                 </div>
                 {/* // rounded background purple */}
                 <div className="
-                h-60 w-2/4 
-                md:w-2/4  lg:2/4
-                my-4
-                lg:block 
-                overflow-hidden 
-                bg-bookmark-purple 
-                rounded-r-full 
-                absolute 
-                md:h-80 lg:h-80 
-                
-                top-37 left-0 
-                lg:-bottom-28  
+                 h-60 w-3/4 
+                 md:w-2/4  lg:w-2/5
+                 my-4
+                 lg:block 
+                 overflow-hidden 
+                 bg-bookmark-purple 
+                 rounded-r-full 
+                 absolute 
+                 md:h-80 lg:h-80 
+                 md-w-1/4
+                 lg-w-1/4
+                 top-20 left-0 
+                 lg:top-38
+                 lg:-bottom-24  
                 ">
                     
                 </div>
